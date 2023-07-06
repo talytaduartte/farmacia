@@ -1,27 +1,42 @@
-# Farmacia
+# Farmácia Angular App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+Este é um projeto de uma aplicação Angular para uma farmácia. A aplicação permite gerenciar produtos e clientes, com funcionalidades de login e navegação entre as páginas.
 
-## Development server
+## Tecnologias utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular: uma plataforma de desenvolvimento para criar aplicações web modernas.
+- HTML5: a linguagem de marcação para estruturar o conteúdo da aplicação.
+- CSS3: a linguagem de estilização para personalizar o visual da aplicação.
+- TypeScript: uma linguagem de programação tipada que se compila para JavaScript.
+- SCSS: uma extensão do CSS que permite escrever estilos mais avançados e reutilizáveis.
+- Bootstrap: um framework CSS popular para criar layouts responsivos.
+- RxJS: uma biblioteca para programação reativa em JavaScript.
+- JSON: um formato de dados leve para armazenar informações estruturadas.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Página de login: permite que os usuários façam login na aplicação.
+- Página de produtos: exibe uma lista de produtos e permite navegar para a página de detalhes de um produto.
+- Página de clientes: exibe uma lista de clientes e permite editar o cadastro de um cliente.
+- Responsividade: a aplicação é adaptada para diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis.
 
-## Build
+## Como executar o projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Certifique-se de ter o Angular CLI instalado globalmente em sua máquina.
+2. Faça o clone deste repositório.
+3. Navegue até o diretório do projeto.
+4. Execute o comando `npm install` para instalar as dependências do projeto.
+5. Execute o comando `ng serve` para iniciar a aplicação localmente.
+6. Acesse a aplicação no seu navegador em `http://localhost:4200`.
 
-## Running unit tests
+## Deploy
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O projeto está implantado em [LINK DO DEPLOY](https://farmacia-peach.vercel.app/login).
 
-## Running end-to-end tests
+## Contribuição
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Contribuições são bem-vindas! Se você quiser contribuir com este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Further help
+## Licença
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto está licenciado sob a licença [MIT](LICENSE).
